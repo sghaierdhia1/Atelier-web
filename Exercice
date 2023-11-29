@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice HTML 2</title>
+    <style>
+        body {
+            background-color: #00ffff; /* Couleur de fond de la page */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mes Activités Préférées</h1>
+
+    <h2>Liste Ordre</h2>
+    <ol>
+        <li>La lecture</li>
+        <li>La randonnée</li>
+        <li>La cuisine</li>
+    </ol>
+
+    <h2>Liste Désordre</h2>
+    <ul>
+        <li>Choisissez la recette</li>
+        <li>Préparez les ingrédients</li>
+        <li>Cuisinez avec passion</li>
+    </ul>
+
+    <h2>Liens Hypertextes</h2>
+    <p>Visitez ces sites intéressants :</p>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Site 1</a></li>
+        <li><a href="https://www.example2.com" target="_blank">Site 2</a></li>
+    </ul>
+
+</body>
+</html>
