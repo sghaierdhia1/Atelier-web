@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Mise en Forme de Texte</title>
+</head>
+<body>
+
+<!-- Gras -->
+<p>Ce texte est en <b>gras</b> ou <strong>fort</strong>.</p>
+
+<!-- Italique -->
+<p>Ce texte est en <i>italique</i> ou <em>emphasisé</em>.</p>
+
+<!-- Souligné -->
+<p>Ce texte est <u>souligné</u>.</p>
+
+<!-- Retour à la ligne -->
+<p>Ce texte a un <br> retour à la ligne.</p>
+
+<!-- Centrage -->
+<center>Ce texte est centré.</center>
+
+<!-- Texte pré-formaté -->
+<pre>
+Ceci est
+du texte
+pré-formaté.
+</pre>
+
+<!-- Style du texte -->
+<p>Ce texte a une <font size="4">taille de caractère plus grande</font>,
+une <font color="blue">couleur bleue</font>, et une police <font face="Arial, Times New Roman">diversifiée</font>.</p>
+
+</body>
+</html>
