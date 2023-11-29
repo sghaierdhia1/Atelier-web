@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice HTML 3</title>
+    <style>
+        body {
+            background-color: #eaeaea; /* Couleur de fond de la page */
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sujet Principal</h1>
+
+    <h2>Sections</h2>
+    <p>Explorez ces sujets fascinants :</p>
+    <ul>
+        <li><a href="https://www.sujet1.com" target="_blank">Sujet 1</a></li>
+        <li><a href="https://www.sujet2.com" target="_blank">Sujet 2</a></li>
+    </ul>
+
+    <h2>Tableau d'Informations</h2>
+    <table>
+        
+            <tr>
+                <th>Colonne 1</th>
+                <th>Colonne 2</th>
+                <th>Colonne 3</th>
+            </tr>
+        
+        
+            <tr>
+                <td>Donnée 1</td>
+                <td>Donnée 2</td>
+                <td>Donnée 3</td>
+            </tr>
+            <tr>
+                <td>Donnée 4</td>
+                <td>Donnée 5</td>
+                <td>Donnée 6</td>
+            </tr>
+            <tr>
+                <td>Donnée 7</td>
+                <td>Donnée 8</td>
+                <td>Donnée 9</td>
+            </tr>
+        
+    </table>
+
+</body>
+</html>
