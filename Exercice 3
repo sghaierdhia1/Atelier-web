@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Interactive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Exploration Interactive</h1>
+    </header>
+
+    <section>
+        <h2>Quiz</h2>
+        <p>Répondez aux questions suivantes :</p>
+        <ol>
+            <li>Quelle est la capitale de la France ?</li>
+            <li>Combien de continents y a-t-il sur Terre ?</li>
+            <li>Quelle est la racine carrée de 144 ?</li>
+        </ol>
+        <form id="quizForm">
+            <label for="q1">Réponse 1:</label>
+            <input type="text" id="q1" name="q1" required>
+
+            <label for="q2">Réponse 2:</label>
+            <input type="number" id="q2" name="q2" required>
+
+            <label for="q3">Réponse 3:</label>
+            <input type="number" id="q3" name="q3" required>
+
+            <button type="button" onclick="evaluerQuiz()">Évaluer le Quiz</button>
+        </form>
+        <p id="resultat"></p>
+    </section>
+
+    <section>
+        <h2>Galerie d'Images</h2>
+        <p>Découvrez notre collection d'images :</p>
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Page Interactive</p>
+    </footer>
+
+    <script>
+        function evaluerQuiz() {
+            var reponse1 = document.getElementById('q1').value.toLowerCase();
+            var reponse2 = parseInt(document.getElementById('q2').value);
+            var reponse3 = parseInt(document.getElementById('q3').value);
+
+          
+</html>
